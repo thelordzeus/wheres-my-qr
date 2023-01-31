@@ -3,10 +3,29 @@ canvas {
   height: 256px;
 }
 
-/* .generateButton {
-  color: #fff;
-  cursor: pointer;
-  margin-top: 20px;
-  font-size: 17px;
-  background: #3498db;
-} */
+body {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+}
+
+#url {
+  color: white;
+}
+
+.qrImg {
+  opacity: 0;
+  display: flex;
+  padding: 33px 0;
+  border-radius: 5px;
+  align-items: center;
+  pointer-events: none;
+  justify-content: center;
+  border: 1px solid #ccc;
+  margin: auto;
+}

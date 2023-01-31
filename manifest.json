@@ -1,10 +1,14 @@
 {
     "manifest_version": 2,
-    "name": "Qr Bna de bhai",
+    "name": "Where's my QR?",
     "version": "1.0",
     "description": "A quick and easy QR code generator.",
     "browser_action": {
-      "default_popup": "index.html"
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "128": "icon.png"
     },
     "permissions": [
       "activeTab",
