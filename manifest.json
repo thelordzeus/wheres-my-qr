@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Qr Bna de bhai",
+    "version": "1.0",
+    "description": "A quick and easy QR code generator.",
+    "browser_action": {
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ]
+  }
+  
