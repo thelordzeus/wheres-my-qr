@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Where's my QR?",
+    "name": "Where my QR?",
     "version": "1.0",
     "description": "A quick and easy QR code generator.",
     "browser_action": {
