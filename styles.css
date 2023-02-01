@@ -1,23 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 canvas {
   width: 256px;
   height: 256px;
 }
 
 body {
-  background-color: black;
-  width: 200px;
-  height: 200px;
+  background: #3498db;
+  width: 320px;
+  height: 320px;
   overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-  color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: 500;
 }
 
 #url {
-  color: white;
+  margin-top: 5px;
+  color: #575757;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
+/* CSS */
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-left: 23px;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
 .qrImg {
   opacity: 0;
   display: flex;
@@ -27,5 +96,22 @@ h1 {
   pointer-events: none;
   justify-content: center;
   border: 1px solid #ccc;
-  margin: auto;
+  height: 60%; /* adjust this to your desired size */
+  width: auto;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  height: 290px;
+  max-width: 410px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 20px 25px 0;
+  transition: height 0.2s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
